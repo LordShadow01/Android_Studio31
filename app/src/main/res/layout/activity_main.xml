@@ -47,6 +47,35 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
+    <RadioGroup
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="200dp"
+        android:id="@+id/rgbOpciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/optSuma"
+            android:text="Sumar"
+            android:checked="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:id="@+id/optResta"
+            android:text="Restar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:id="@+id/optMultiplicacion"
+            android:text="Multiplicacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:id="@+id/optDivision"
+            android:text="Division"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RadioGroup>
+
     <Button
         android:id="@+id/btncalcular"
         android:layout_marginTop="220dp"
