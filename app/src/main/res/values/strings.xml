@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">miprimeraapp</string>
-    <string name="Holis">Hola mundo</string>
-    <string name="Iam">Yo soy batman</string>
-    <string name="ohno">el señor de la noche</string>
+    <string-array name="opciones">
+        <item>Suma</item>
+        <item>Resta</item>
+        <item>Multiplicacion</item>
+        <item>Division</item>
+
+    </string-array>
 </resources>
