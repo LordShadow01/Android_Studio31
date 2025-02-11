@@ -1,12 +1,67 @@
 <resources>
-    <string name="app_name">miPrimeraAplicacion</string>
-    <string-array name="monedas">
-        <item>Dolar</item>
-        <item>Euro</item>
-        <item>Quetzalez</item>
-        <item>Lempiras</item>
-        <item>Cordobas</item>
-        <item>Colon CR</item>
-        <item>Colon SV</item>
+    <string name="app_name">miprimeraplicacion</string>
+
+    <string-array name="moneda">
+        <item>Dólar (USD)</item>
+        <item>Euro (EUR)</item>
+        <item>Quetzal (GTQ)</item>
+        <item>Lempira (HNL)</item>
+        <item>Córdoba (NIO)</item>
+        <item>Colón Costarricense (CRC)</item>
+        <item>Colón Salvadoreño (SVC)</item>
+        <item>Libra Esterlina (GBP)</item>
+        <item>Yen Japonés (JPY)</item>
+        <item>Rublo Ruso (RUB)</item>
+        <item>Peso Mexicano (MXN)</item>
+    </string-array>
+    <string-array name="Longitud">
+        <item>Metro (m)</item>
+        <item>Kilómetro (km)</item>
+        <item>Centímetro (cm)</item>
+        <item>Milímetro (mm)</item>
+        <item>Pulgada (in)</item>
+        <item>Pie (ft)</item>
+        <item>Yarda (yd)</item>
+        <item>Milla (mi)</item>
+        <item>Milla Náutica (nmi)</item>
+        <item>Micrómetro (µm)</item>
+    </string-array>
+    <string-array name="Tiempo">
+        <item>Segundo (s)</item>
+        <item>Minuto (min)</item>
+        <item>Hora (h)</item>
+        <item>Día (d)</item>
+        <item>Semana (sem)</item>
+        <item>Mes (mes)</item>
+        <item>Año (año)</item>
+        <item>Década (década)</item>
+        <item>Siglo (siglo)</item>
+        <item>Milenio (milenio)</item>
+    </string-array>
+
+    <string-array name="Almacenamiento">
+        <item>Byte (B)</item>
+        <item>Kilobyte (KB)</item>
+        <item>Megabyte (MB)</item>
+        <item>Gigabyte (GB)</item>
+        <item>Terabyte (TB)</item>
+        <item>Petabyte (PB)</item>
+        <item>Exabyte (EB)</item>
+        <item>Zettabyte (ZB)</item>
+        <item>Yottabyte (YB)</item>
+        <item>Brontobyte (BB)</item>
+    </string-array>
+
+    <string-array name="Transferencia">
+        <item>Bit por segundo (bps)</item>
+        <item>Kilobit por segundo (Kbps)</item>
+        <item>Megabit por segundo (Mbps)</item>
+        <item>Gigabit por segundo (Gbps)</item>
+        <item>Terabit por segundo (Tbps)</item>
+        <item>Petabit por segundo (Pbps)</item>
+        <item>Exabit por segundo (Ebps)</item>
+        <item>Zettabit por segundo (Zbps)</item>
+        <item>Yottabit por segundo (Ybps)</item>
+        <item>Brontobit por segundo (Bbps)</item>
     </string-array>
 </resources>
