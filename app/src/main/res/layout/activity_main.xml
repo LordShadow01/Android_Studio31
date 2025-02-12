@@ -218,6 +218,84 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"/>
                 </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/tabMasa"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/lblDeMasa"
+                        android:text="DE: "
+                        android:layout_marginTop="40dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <Spinner
+                        android:entries="@array/Masa"
+                        android:id="@+id/spnDeMasa"
+                        android:layout_below="@id/lblDeMasa"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="-20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/lblAMasa"
+                        android:text="A: "
+                        android:layout_below="@id/spnDeMasa"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <Spinner
+                        android:entries="@array/Masa"
+                        android:id="@+id/spnAMasa"
+                        android:layout_below="@id/spnDeMasa"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/tabVolumen"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/lblDeVolumen"
+                        android:text="DE: "
+                        android:layout_marginTop="40dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <Spinner
+                        android:entries="@array/Volumen"
+                        android:id="@+id/spnDeVolumen"
+                        android:layout_below="@id/lblDeVolumen"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="-20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/lblAVolumen"
+                        android:text="A: "
+                        android:layout_below="@id/spnDeVolumen"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <Spinner
+                        android:entries="@array/Volumen"
+                        android:id="@+id/spnAVolumen"
+                        android:layout_below="@id/spnDeVolumen"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </RelativeLayout>
             </FrameLayout>
         </LinearLayout>
     </TabHost>

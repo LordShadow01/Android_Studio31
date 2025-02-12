@@ -64,4 +64,29 @@
         <item>Yottabit por segundo (Ybps)</item>
         <item>Brontobit por segundo (Bbps)</item>
     </string-array>
+    <string-array name="Masa">
+        <item>Gramo</item>
+        <item>Kilogramo</item>
+        <item>Miligramo</item>
+        <item>Microgramo</item>
+        <item>Onza</item>
+        <item>Libra</item>
+        <item>Stone</item>
+        <item>Tonelada Métrica</item>
+        <item>Tonelada Corta (EE.UU.)</item>
+        <item>Tonelada Larga (Reino Unido)</item>
+    </string-array>
+
+    <string-array name="Volumen">
+        <item>Litro</item>
+        <item>Mililitro</item>
+        <item>Metro Cúbico</item>
+        <item>Pinta</item>
+        <item>Cuarto</item>
+        <item>Galón(USA)</item>
+        <item>Onza Líquida</item>
+        <item>Decilitro</item>
+        <item>Centilitro</item>
+        <item>Microlitro</item>
+    </string-array>
 </resources>
