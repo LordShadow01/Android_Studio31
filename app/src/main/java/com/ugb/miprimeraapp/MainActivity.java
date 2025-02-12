@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
                     // Validar que el campo no esté vacío
                     String cantidadTexto = textCantidad.getText().toString().trim();
                     if (cantidadTexto.isEmpty()) {
-                        Toast.makeText(MainActivity.this, "Ponga un numero no sea imbecil", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(MainActivity.this, "PongA un numero no sea imbecil", Toast.LENGTH_SHORT).show();
                         return;
                     }
 
