@@ -1,92 +1,26 @@
 <resources>
-    <string name="app_name">miprimeraplicacion</string>
+    <string name="app_name">HolaMundo</string>
+    <!-- Tab Labels -->
+    <string name="tab_calculadora">Calculadora</string>
+    <string name="tab_conversor_sensores">Conversor/Sensores</string>
 
-    <string-array name="moneda">
-        <item>Dólar (USD)</item>
-        <item>Euro (EUR)</item>
-        <item>Quetzal (GTQ)</item>
-        <item>Lempira (HNL)</item>
-        <item>Córdoba (NIO)</item>
-        <item>Colón Costarricense (CRC)</item>
-        <item>Colón Salvadoreño (SVC)</item>
-        <item>Libra Esterlina (GBP)</item>
-        <item>Yen Japonés (JPY)</item>
-        <item>Rublo Ruso (RUB)</item>
-        <item>Peso Mexicano (MXN)</item>
-    </string-array>
-    <string-array name="Longitud">
-        <item>Metro (m)</item>
-        <item>Kilómetro (km)</item>
-        <item>Centímetro (cm)</item>
-        <item>Milímetro (mm)</item>
-        <item>Pulgada (in)</item>
-        <item>Pie (ft)</item>
-        <item>Yarda (yd)</item>
-        <item>Milla (mi)</item>
-        <item>Milla Náutica (nmi)</item>
-        <item>Micrómetro (µm)</item>
-    </string-array>
-    <string-array name="Tiempo">
-        <item>Segundo (s)</item>
-        <item>Minuto (min)</item>
-        <item>Hora (h)</item>
-        <item>Día (d)</item>
-        <item>Semana (sem)</item>
-        <item>Mes (mes)</item>
-        <item>Año (año)</item>
-        <item>Década (década)</item>
-        <item>Siglo (siglo)</item>
-        <item>Milenio (milenio)</item>
-    </string-array>
+    <!-- Calculator Tab -->
+    <string name="consumo_agua_label">Consumo de Agua (metros):</string>
+    <string name="consumo_hint">Ingrese el valor del consumo</string>
+    <string name="calcular_button">Calcular</string>
+    <string name="total_a_pagar">Total a Pagar: </string>
 
-    <string-array name="Almacenamiento">
-        <item>Byte (B)</item>
-        <item>Kilobyte (KB)</item>
-        <item>Megabyte (MB)</item>
-        <item>Gigabyte (Gb)</item>
-        <item>Terabyte (TB)</item>
-        <item>Petabyte (PB)</item>
-        <item>Exabyte (EB)</item>
-        <item>Zettabyte (ZB)</item>
-        <item>Yottabyte (YB)</item>
-        <item>Brontobyte (BB)</item>
-    </string-array>
+    <!-- Area Converter Tab -->
+    <string name="convertir_area_label">Convertir Área:</string>
+    <string name="area_value_hint">Ingrese el valor del área</string>
+    <string name="a_label">A:</string>
+    <string name="convertir_button">Convertir</string>
+    <string name="resultado_label">Resultado: </string>
 
-    <string-array name="Transferencia">
-        <item>Bit por segundo (bps)</item>
-        <item>Kilobit por segundo (Kbps)</item>
-        <item>Megabit por segundo (Mbps)</item>
-        <item>Gigabit por segundo (Gbps)</item>
-        <item>Terabit por segundo (Tbps)</item>
-        <item>Petabit por segundo (Pbps)</item>
-        <item>Exabit por segundo (Ebps)</item>
-        <item>Zettabit por segundo (Zbps)</item>
-        <item>Yottabit por segundo (Ybps)</item>
-        <item>Brontobit por segundo (Bbps)</item>
-    </string-array>
-    <string-array name="Masa">
-        <item>Gramo</item>
-        <item>Kilogramo</item>
-        <item>Miligramo</item>
-        <item>Microgramo</item>
-        <item>Onza</item>
-        <item>Libra</item>
-        <item>Stone</item>
-        <item>Tonelada Métrica</item>
-        <item>Tonelada Corta (EE.UU.)</item>
-        <item>Tonelada Larga (Reino Unido)</item>
-    </string-array>
-
-    <string-array name="Volumen">
-        <item>Litro</item>
-        <item>Mililitro</item>
-        <item>Metro Cúbico</item>
-        <item>Pinta</item>
-        <item>Cuarto</item>
-        <item>Galón(USA)</item>
-        <item>Onza Líquida</item>
-        <item>Decilitro</item>
-        <item>Centilitro</item>
-        <item>Microlitro</item>
-    </string-array>
+    <!-- Sensor Section -->
+    <string name="sensores_label">Sensores:</string>
+    <string name="sensor_proximidad">Sensor de Proximidad: N/A</string>
+    <string name="sensor_acelerometro">Acelerómetro: N/A</string>
+    <string name="iniciar_sensores">Iniciar Sensores</string>
+    <string name="detener_sensores">Detener Sensores</string>
 </resources>
