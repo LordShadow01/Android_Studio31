@@ -1,162 +1,124 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@android:id/tabhost"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
 
-    <LinearLayout
+    <!-- TabHost -->
+    <TabHost
+        android:id="@+id/tabHost"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_height="match_parent">
 
-        <TabWidget
-            android:id="@android:id/tabs"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-        <FrameLayout
-            android:id="@android:id/tabcontent"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <!-- Tab 1: Calculator Layout -->
-            <LinearLayout
-                android:id="@+id/tab1"
+            <!-- TabWidget (Pestañas) -->
+            <TabWidget
+                android:id="@android:id/tabs"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:padding="16dp">
+                android:layout_height="wrap_content" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/consumo_agua_label" />
-
-                <EditText
-                    android:id="@+id/editTextConsumo"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:autofillHints="number"
-                    android:hint="@string/consumo_hint"
-                    android:inputType="numberDecimal"
-                    android:minHeight="48dp" />
-
-                <Button
-                    android:id="@+id/buttonCalcular"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/calcular_button" />
-
-                <TextView
-                    android:id="@+id/textViewResultado"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
-                    android:textAppearance="?android:textAppearanceMedium"
-                    android:text="@string/total_a_pagar" />
-
-            </LinearLayout>
-
-            <!-- Tab 2: Area Converter and Sensors Layout -->
-            <LinearLayout
-                android:id="@+id/tab2"
+            <!-- FrameLayout (Contenido de las pestañas) -->
+            <FrameLayout
+                android:id="@android:id/tabcontent"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:padding="16dp">
+                android:layout_height="match_parent">
 
-                <!-- Area Converter Section -->
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/convertir_area_label"
-                    android:textAppearance="?android:textAppearanceMedium" />
-
-                <EditText
-                    android:id="@+id/editTextAreaValue"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="@string/area_value_hint"
-                    android:inputType="numberDecimal"
-                    android:contentDescription="@string/area_value_hint"
-                    android:autofillHints="number"
-                    />
-
-                <Spinner
-                    android:id="@+id/spinnerFromUnit"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/a_label" />
-
-                <Spinner
-                    android:id="@+id/spinnerToUnit"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
-
-                <Button
-                    android:id="@+id/buttonConvertArea"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/convertir_button" />
-
-                <TextView
-                    android:id="@+id/textViewAreaResult"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
-                    android:text="@string/resultado_label"
-                    android:textAppearance="?android:textAppearanceMedium" />
-
-                <!-- Sensor Section -->
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
-                    android:text="@string/sensores_label"
-                    android:textAppearance="?android:textAppearanceMedium" />
-
-                <TextView
-                    android:id="@+id/lblSensorProximidad"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
-                    android:text="@string/sensor_proximidad"
-                    android:textAppearance="?android:textAppearanceSmall" />
-
-                <TextView
-                    android:id="@+id/lblSensorAcelerometro"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
-                    android:text="@string/sensor_acelerometro"
-                    android:textAppearance="?android:textAppearanceSmall" />
-
+                <!-- TAB AGUA -->
                 <LinearLayout
+                    android:id="@+id/tabAgua"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:gravity="center">
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="16dp">
 
-                    <Button
-                        android:id="@+id/btnStartSensors"
+                    <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/iniciar_sensores"
-                        android:layout_marginEnd="8dp"/>
+                        android:labelFor="@+id/editTextMtsConsumidos"
+                        android:text="Metros Consumidos:"
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/editTextMtsConsumidos"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal" />
 
                     <Button
-                        android:id="@+id/btnStopSensors"
+                        android:id="@+id/buttonCalcular"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/detener_sensores"
-                        android:layout_marginStart="8dp"/>
+                        android:text="Calcular" />
+
+                    <TextView
+                        android:id="@+id/textViewValorPagar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
 
                 </LinearLayout>
-            </LinearLayout>
-        </FrameLayout>
-    </LinearLayout>
-</TabHost>
+
+                <!-- TAB AREA -->
+                <LinearLayout
+                    android:id="@+id/tabArea"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:labelFor="@+id/editTextValor"
+                        android:text="Valor:"
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/editTextValor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:labelFor="@+id/spinnerDesde"
+                        android:text="Desde:"
+                        android:textSize="16sp" />
+
+                    <Spinner
+                        android:id="@+id/spinnerDesde"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:labelFor="@+id/spinnerHasta"
+                        android:text="Hasta:"
+                        android:textSize="16sp" />
+
+                    <Spinner
+                        android:id="@+id/spinnerHasta"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/textViewResultado"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+</LinearLayout>

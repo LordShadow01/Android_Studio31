@@ -1,26 +1,21 @@
 <resources>
-    <string name="app_name">HolaMundo</string>
-    <!-- Tab Labels -->
-    <string name="tab_calculadora">Calculadora</string>
-    <string name="tab_conversor_sensores">Conversor/Sensores</string>
+    <string name="app_name">AguaArea</string>
+    <string name="metros_consumidos">Metros Consumidos:</string>
+    <string name="calcular">Calcular</string>
+    <string name="valor_a_pagar">Valor a pagar: $</string>
+    <string name="valor">Valor:</string>
+    <string name="desde">Desde:</string>
+    <string name="hasta">Hasta:</string>
+    <string name="ingrese_metros_consumidos">Ingrese los metros consumidos</string>
+    <string name="ingrese_un_valor">Ingrese un valor</string>
 
-    <!-- Calculator Tab -->
-    <string name="consumo_agua_label">Consumo de Agua (metros):</string>
-    <string name="consumo_hint">Ingrese el valor del consumo</string>
-    <string name="calcular_button">Calcular</string>
-    <string name="total_a_pagar">Total a Pagar: </string>
-
-    <!-- Area Converter Tab -->
-    <string name="convertir_area_label">Convertir Área:</string>
-    <string name="area_value_hint">Ingrese el valor del área</string>
-    <string name="a_label">A:</string>
-    <string name="convertir_button">Convertir</string>
-    <string name="resultado_label">Resultado: </string>
-
-    <!-- Sensor Section -->
-    <string name="sensores_label">Sensores:</string>
-    <string name="sensor_proximidad">Sensor de Proximidad: N/A</string>
-    <string name="sensor_acelerometro">Acelerómetro: N/A</string>
-    <string name="iniciar_sensores">Iniciar Sensores</string>
-    <string name="detener_sensores">Detener Sensores</string>
+    <string-array name="unidades_area">
+        <item>Pie Cuadrado</item>
+        <item>Vara Cuadrada</item>
+        <item>Yarda Cuadrada</item>
+        <item>Metro Cuadrado</item>
+        <item>Tarea</item>
+        <item>Manzana</item>
+        <item>Hectárea</item>
+    </string-array>
 </resources>
