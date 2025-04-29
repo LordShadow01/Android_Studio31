@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"  xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp">  <androidx.cardview.widget.CardView
+    android:id="@+id/cardViewFoto"
+    android:layout_width="60dp"
+    android:layout_height="60dp"
+    app:cardCornerRadius="150dp">  <ImageView
+    android:id="@+id/imgFotoAdaptador"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scaleType="centerCrop"
+    android:src="@mipmap/ic_launcher_round"/>
+</androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/lblCodigoAdaptador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:text="Código: 235675"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/lblDescripcionAdaptador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblCodigoAdaptador"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="5dp"
+        android:text="Descripción"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/lblPrecioAdaptador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblDescripcionAdaptador"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="5dp"
+        android:text="$600"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/lblCostoAdaptador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblPrecioAdaptador"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="5dp"
+        android:text="Costo: $100"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/lblStockAdaptador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblCostoAdaptador"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="5dp"
+        android:text="Stock: 50"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+</RelativeLayout>
