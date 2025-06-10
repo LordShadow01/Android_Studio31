@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "571099605633",
+    "project_id": "mywhatsaap-4a3ec",
+    "storage_bucket": "mywhatsaap-4a3ec.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:571099605633:android:cebc42047a07d25d94bb80",
+        "android_client_info": {
+          "package_name": "com.ugb.miprimeraaplicacion"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLhr26IViB10x7IsDthVOMfPp016pMNs4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
